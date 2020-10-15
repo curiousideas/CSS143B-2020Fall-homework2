@@ -10,8 +10,7 @@ public class Problem2 {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-// {0, 0, 1, 1, 1, 2, 2, 4, 4, 6},
-        int index = 1; //2
+        int index = 1;
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] != nums[i+1]) {
                 nums[index++] = nums[i+1];

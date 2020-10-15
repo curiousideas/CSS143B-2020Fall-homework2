@@ -13,6 +13,7 @@ public class Problem2Test {
                 {},
                 null,
                 {-3,-3,-3,-2,-1,-1,0,0,0,0,3,4,4,4,5,6,7},
+                {1,2,3,3,3,4},
         };
 
         int[][] expects = {
@@ -22,6 +23,7 @@ public class Problem2Test {
                 {},
                 {},
                 {-3,-2,-1,0,3,4,5,6,7},
+                {1,2,3,4},
         };
 
         assertEquals(expects.length, inputs.length);
