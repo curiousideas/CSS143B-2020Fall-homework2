@@ -1,7 +1,9 @@
 public class Problem2 {
 
     /*
-    Describe your algorithm here in up to 5 sentences:
+    I have 2 pointers. index indicates where the next non duplicate number should go.
+    The second pointer is the at [i]. The function skips numbers that are the same and
+    switches number at [i+1] with index.
      */
 
     // Do not change signature (function name, parameters and return type)
