@@ -9,7 +9,6 @@ public class MovieComedy extends Movie {
 
     public MovieComedy(MovieComedy anotherMovie) {
         super(anotherMovie);
-        //this.lateFeePerDayInDollar = anotherMovie.getLateFeeInDollar();
     }
 
     @Override

@@ -14,7 +14,6 @@ public class BookFiction extends Book {
     // copy constructor
     public BookFiction(BookFiction anotherBook) {
         super(anotherBook);
-        //this.lateFeePerDayInDollar = anotherBook.getLateFeeInDollar();
     }
 
     @Override

@@ -10,7 +10,6 @@ public class MovieAction extends Movie {
 
     public MovieAction(MovieAction anotherMovie) {
         super(anotherMovie);
-        //this.lateFeePerDayInDollar = anotherMovie.getLateFeeInDollar();
     }
 
     @Override

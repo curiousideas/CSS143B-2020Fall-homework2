@@ -10,7 +10,6 @@ public class BookRomance extends Book {
 
     public BookRomance(BookRomance anotherBook) {
         super(anotherBook);
-        //this.lateFeePerDayInDollar = anotherBook.getLateFeeInDollar();
     }
 
     @Override
